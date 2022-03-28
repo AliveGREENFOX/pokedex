@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE = edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/pngwing.com (24).png">
+    <link rel="stylesheet" href="../css/pkmn_stylesheet.css">
+    <title>Pokedex</title>        
+</head>
+
+<header>
+    <!--Logos-->
+    <div id="container_0">
+
+        <img src="../assets/pokedex_logo.png" height="100px" width="200px" alt="pokedex_logo">
+        <img src="../assets/pokedex_logo_text.png" height="100px" width="400px" alt="pokedex_logo">
+
+    </div>    
+</header>
+
+<body>
+
+    <!--Search section-->
+    <div id="container_1">
+
+        <input id="pokeName_searchbox" placeholder="Ex. Venusaur or 282" type="text">
+
+        <button id="search_btn" onclick="fetchPokemon()">Search a pokemon</button> <br>
+
+    </div>
+
+    <!--Spirites section-->
+    <div id="container_2">
+        
+        <img class="spirites_img" id="pokemon_front" src="" alt="Front" height="150px" width="150px">
+
+        <img class="spirites_img" id="pokemon_back" src="" alt="Back" height="150px" width="150px">
+
+        <img id="pokeball_spirite" onclick="fetchPokemon_random()" src="" title="Random pokemon!!!" alt="Pokeball" height="150px" width="150px">
+    
+        <img class="spirites_img" id="pokemon_front_shiny" src="" alt="Shiny front" height="150px" width="150px">
+    
+        <img class="spirites_img" id="pokemon_back_shiny" src="" alt="Shiny back" height="150px" width="150px">
+
+    </div>
+
+    <!--Types section-->
+    <div id="container_4">
+        <img class="spirites_img" id="pokemon_Type_1" src="" alt="Pokeball" height="150px" width="150px">
+    
+        <img class="spirites_img" id="pokemon_Type_2" src="" alt="Pokeball" height="150px" width="150px">
+    </div>
+
+    <!--Stats section-->
+    <div id="container_3">
+
+        <div id="container_stats_1">
+
+            <p class="text" id="pkmn_number_p">Pokemon Number: </p>
+
+            <p class="text" id="pkmn_weight_p">Pokemon Weight: </p>
+    
+            <p class="text" id="pkmn_height_p">Pokemon height: </p>
+    
+            <p class="text" id="pkmn_type1_p">Pokemon type: </p>
+    
+            <p class="text" id="pkmn_name">Pokemon name: </p>
+
+        </div>
+
+        <div id="container_stats_2">
+            <p class="text" id="pkmn_hp_stat">Pokemon Hp: </p>
+
+            <p class="text" id="pkmn_attk_stat">Pokemon attack: </p>
+    
+            <p class="text" id="pkmn_sattk_stat">Pokemon special attack: </p>
+    
+            <p class="text" id="pkmn_def_stat">Pokemon defense: </p>
+    
+            <p class="text" id="pkmn_sdef_stat">Pokemon special defense: </p>
+    
+            <p class="text" id="pkmn_speed_stat">Pokemon speed: </p>
+
+        </div>
+
+    </div>
+
+    <!--Moves section-->
+    <div id="container_5">
+
+        <div id="container_move_1">
+            
+            <p id="move_1" class="text">Move 1: </p>
+
+            <p id="move_2" class="text">Move 2: </p>
+
+        </div>
+
+        <div id="container_moves_2">
+            
+            <p id="move_3" class="text">Move 3: </p>
+
+            <p id="move_4" class="text">Move 4: </p>
+
+        </div>
+
+    </div>
+
+    
+</body>
+
+<footer>
+    <script src="../javascript/pokedex_js.js"></script>
+</footer>

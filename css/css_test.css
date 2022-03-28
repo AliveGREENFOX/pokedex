@@ -1,0 +1,77 @@
+
+#biggest_container{
+    display: flex;
+    justify-content: center;
+}
+
+#main_container{
+    display: block;
+    justify-content: center;
+}
+
+#left_screen{
+    background-color: tomato;
+    display: flex;
+    height: 45vh;
+    padding: 20px;
+    justify-content: center;
+    width: 25vw;
+}
+
+#gray_margin{
+    background-color: rgb(83, 72, 70);
+    display: flex;
+    height: 24vh;
+    padding: 20px;
+    justify-content: center;
+    width: 24vw;
+}
+
+#screen{
+    background-color: rgb(0, 0, 0);
+    display: block;
+    height: 23vh;
+    justify-content: center;
+    width: 23vw;
+    overflow-y: scroll;
+    scrollbar-color: black;
+}
+
+#right_screen{
+    background-color: rgb(45, 206, 39);
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    height: 45vh;
+    width: 25vw;
+}
+
+#margin_2{
+    background-color: rgb(83, 72, 70);
+    display: flex;
+    height: 24vh;
+    padding: 20px;
+    justify-content: center;
+    width: 24vw;
+}
+
+#screen_2{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    height: 23vh;
+    justify-content: center;
+    width: 23vw;
+}
+
+
+
+#pokeName_searchbox{
+    height: 25px;
+    width: 150px;
+}
+
+#search_btn{
+    height: 75px;
+    width: 150px;
+}
+

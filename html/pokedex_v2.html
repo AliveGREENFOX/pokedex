@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE = edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/pngwing.com (24).png">    
+    <link rel="stylesheet" href="../css/pkmn_stylesheet_v2.css">
+    <title>Pokedex_test</title>        
+</head>
+
+<body>
+
+    <div id="biggest_container">
+
+        <div id="main_container">
+
+            <div id="left_screen">
+                <div id="gray_margin">
+                    <div id="screen">
+                        <div id="container_1">
+
+                            <input id="pokeName_searchbox" placeholder="Ex. Venusaur or 282" type="text">
+                            <img id="pokeball_spirite" onclick="fetchPokemon_random()" src="" title="Random pokemon!!!" alt="Pokeball" height="100px" width="100px">
+                            <button id="search_btn" onclick="fetchPokemon()">Search a pokemon</button> <br>
+
+                        </div>
+
+                        <div id="container 1_5">
+                            <p class="text" id="pkmn_stat_1">Pokemon name: </p>
+
+                            <p class="text" id="pkmn_stat_2">Pokemon Number: </p>
+                        </div>
+
+                        <div id="container_2">
+
+                            <img class="spirites_img" id="pokemon_front" src="" alt="Front" height="150px" width="150px">
+
+                            <img class="spirites_img" id="pokemon_back" src="" alt="Back" height="150px" width="150px">
+
+                            <img class="spirites_img" id="pokemon_front_shiny" src="" alt="Shiny front" height="150px" width="150px">
+    
+                            <img class="spirites_img" id="pokemon_back_shiny" src="" alt="Shiny back" height="150px" width="150px">
+                        </div>
+
+                        <div id="container_4">
+                            <img class="spirites_img" id="pokemon_Type_1" src="" alt="Type 1" height="100px" width="100px">
+                        
+                            <img class="spirites_img" id="pokemon_Type_2" src="" alt="Type 2" height="100px" width="100px">
+                        </div>
+
+                    </div>        
+                </div>
+            </div>
+    
+            
+            <div id="right_screen">
+                <div id="margin_2">
+                    <div id="screen_2">        
+                        <div id="container_3">
+
+                            <div id="container_stats_1">
+                
+                                <p class="text" id="pkmn_stat_3">Pokemon Weight: </p>
+    
+                                <p class="text" id="pkmn_stat_4">Pokemon height: </p>
+
+                                <p class="text" id="pkmn_stat_5">Pokemon Hm: </p>
+                                    
+                            </div>
+
+                            <div id="container_stats_2">
+                                <p class="text" id="pkmn_stat_6">Pokemon Hm: </p>
+
+                                <p class="text" id="pkmn_stat_7">Pokemon attack: </p>
+    
+                                <p class="text" id="pkmn_stat_8">Pokemon special attack: </p>
+    
+                                <p class="text" id="pkmn_stat_9">Pokemon defense: </p>
+    
+                                <p class="text" id="pkmn_stat_10">Pokemon special defense: </p>
+    
+                                <p class="text" id="pkmn_stat_11">Pokemon speed: </p>
+
+                            </div>
+
+                        </div>
+
+                        <div id="container_5">
+
+                            <div id="container_move_1">
+                                
+                                <p id="move_1" class="text">Move 1: </p>
+                    
+                                <p id="move_2" class="text">Move 2: </p>
+                    
+                            </div>
+                    
+                            <div id="container_moves_2">
+                                
+                                <p id="move_3" class="text">Move 3: </p>
+                    
+                                <p id="move_4" class="text">Move 4: </p>
+                    
+                            </div>
+                    
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+<footer>
+    <script src="../javascript/pokedex_js_v2.js"></script>
+</footer>

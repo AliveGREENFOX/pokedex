@@ -1,0 +1,164 @@
+
+#biggest_container{
+    display: flex;
+    justify-content: center;
+}
+
+#main_container{
+    display: block;
+    justify-content: center;
+}
+
+.text{
+    background-color: white;
+    border: 2px solid #000000;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    visibility: hidden;
+    margin: 10px;
+}
+
+.spirites_img{
+    visibility: hidden;
+}
+
+body{
+    background-image: url("../assets/background.webp");
+    background-size: cover;
+}
+
+/**************Top screen*******************/
+#left_screen{
+    background-color: tomato;
+    display: flex;
+    height: 52vh;
+    padding: 20px;
+    justify-content: center;
+    width: 52vw;
+}
+
+#gray_margin{
+    background-color: rgb(83, 72, 70);
+    display: flex;
+    height: 51vh;
+    padding-top: 20px;
+    justify-content: center;
+    width: 51vw;
+}
+
+#screen{
+    background-color: rgb(37, 189, 235);
+    display: block;
+    height: 50vh;
+    justify-content: center;
+    width: 50vw;
+    overflow-y: scroll;
+    scrollbar-color: black;
+}
+/**************Bottom screen*******************/
+#right_screen{
+    background-color: tomato;
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    height: 52vh;
+    width: 52vw;
+}
+
+#margin_2{
+    background-color: rgb(83, 72, 70);
+    display: flex;
+    height: 51vh;
+    padding-top: 20px;
+    justify-content: center;
+    width: 51vw;
+}
+
+#screen_2{
+    background-color: rgb(37, 189, 235);
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    overflow-y: scroll;
+    width: 50vw;
+}
+
+/************Top data*****************/
+
+#container_1{    
+    display: flex;
+    justify-content: center;
+}
+
+#pokeName_searchbox{
+    height: 40px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+#search_btn{
+    border-radius: 6px;
+    border-color: #000000;
+    background-color: aliceblue;
+    border-width: 2px;
+    height: 75px;
+    width: 200px;
+    margin-top: 5px;
+    font-size: 30px;
+    transition: .4s;
+}
+
+#search_btn:hover{
+    cursor: pointer;
+    background-color: #50cdec;
+}
+
+#pokeball_spirite{
+    margin: 10px;
+    cursor: pointer;
+}
+
+#container_2{
+    
+    display: flex;
+    justify-content: center;
+}
+
+#container_4{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/************Bottom data*****************/
+
+#container_3{
+    display: flex;
+    justify-content: center;
+}
+
+#container_stats_1{
+    display: block;
+}
+
+#container_stats_2{
+    display: block;
+}
+
+#container_5{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#container_move_1{
+    display: block;
+}
+
+#container_move_2{
+    display: block;
+}
